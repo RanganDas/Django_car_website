@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+
+{% block title %}Services{% endblock title %}
+{% block body %}
+<h1 class="my-2 text-center">Catagories</h1>
+<div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card mb-4 shadow-sm">
+            <img src="/static/car1.jpg" width="100%" height="225"></title><text class="text-center" x="50%" y="50%" fill="#eceeef" dy=".3em">Sports</text>
+            <div class="card-body">
+              <p class="card-text">These cars are good for tracks, not for long drive and offroading.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a class="btn btn-sm btn-outline-secondary" href="/cv" role="button">View</a>
+                  <a class="btn btn-sm btn-outline-secondary" href="/edit" role="button">Edit</a>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>    
+        <div class="col">
+          <div class="card mb-4 shadow-sm">
+            <img src="/static/hummer.jpg" width="100%" height="225"></title><text class="text-center" x="50%" y="50%" fill="#eceeef" dy=".3em">SUV</text>
+            <div class="card-body">
+              <p class="card-text">These cars are good for long drive and offroading.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a class="btn btn-sm btn-outline-secondary" href="/cv" role="button">View</a>
+                  <a class="btn btn-sm btn-outline-secondary" href="/edit" role="button">Edit</a>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>  
+        <div class="col">
+          <div class="card mb-4 shadow-sm">
+            <img src="/static/coupe.jpeg" width="100%" height="225"></title><text class="text-center" x="50%" y="50%" fill="#eceeef" dy=".3em">Coupe</text>
+            <div class="card-body">
+              <p class="card-text">Perfect car for city riding aand also good in sports also.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a class="btn btn-sm btn-outline-secondary" href="/cv" role="button">View</a>
+                  <a class="btn btn-sm btn-outline-secondary" href="/edit" role="button">Edit</a>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>  
+    </div>
+</div>
+<div class="pt-3">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <h6>Team Motorpact <span class="badge bg-secondary">Bring the dream</span></h6>
+        </a>
+      </div>
+  </div>
+
+
+{% endblock body %}
